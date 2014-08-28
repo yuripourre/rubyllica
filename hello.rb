@@ -6,17 +6,16 @@ Dir["libs/*.jar"].each { |jar| require jar }
 java_import 'br.com.etyllica.EtyllicaFrame'
 
 class Hello < EtyllicaFrame
+  field_accessor :w, :h
+
   def initialize
     super 640, 480
   end
-  def start_application
-    HelloApplication.new w h
-  end
-  def lol
-    puts "hello!"
+  def startApplication
+    HelloApplication.new w, h
   end
 end
 
-#hello = Hello.new
-#hello.lol
-#hello.init
+hello = Hello.new
+hello.init
+

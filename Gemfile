@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0', :engine => 'jruby', :engine_version => '1.7.11'
+#ruby=jruby-1.7.14
 
 gem 'pry'
-gem 'pry-byebug'
