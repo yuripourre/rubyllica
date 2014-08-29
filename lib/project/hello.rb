@@ -6,9 +6,10 @@ class Hello < EtyllicaFrame
   field_accessor :w, :h
 
   def initialize
-    super 640, 480
+    super 800, 600
   end
   def startApplication
+    setPath(Project::RESOURCES);
     HelloApplication.new w, h
   end
 end
