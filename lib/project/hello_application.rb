@@ -1,5 +1,3 @@
-Dir["libs/*.jar"].each { |jar| require jar }
-
 java_import 'java.awt.Color'
 java_import 'br.com.etyllica.context.Application'
 

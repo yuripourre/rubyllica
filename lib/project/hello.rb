@@ -1,7 +1,4 @@
-require 'java'
-require 'hello_application'
-
-Dir["libs/*.jar"].each { |jar| require jar }
+require_relative 'hello_application'
 
 java_import 'br.com.etyllica.EtyllicaFrame'
 
