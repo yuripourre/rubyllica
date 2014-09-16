@@ -13,6 +13,7 @@ class GhostExample < Application
     @boo = ImageLayer.new "boo.png"
     @boo.set_image_coordinates 68, 0
     @boo.set_w 68
+    @boo.set_h 68
     @boo.centralize_x 0, w
     @boo.centralize_y 0, h
 
