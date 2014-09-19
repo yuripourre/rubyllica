@@ -1,5 +1,7 @@
-require_relative 'opening'
-require_relative 'ghost_example'
+#require_relative 'image_example'
+#require_relative 'animation_example'
+#require_relative 'input_example'
+require_relative 'collision_example'
 
 java_import 'br.com.etyllica.EtyllicaFrame'
 

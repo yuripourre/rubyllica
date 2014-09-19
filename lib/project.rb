@@ -7,3 +7,6 @@ module Project
 end
 
 require_relative 'project/presentation'
+
+# jruby --2.0 project.rb
+
