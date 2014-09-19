@@ -1,7 +1,8 @@
-#require_relative 'image_example'
+require_relative 'image_example'
 #require_relative 'animation_example'
 #require_relative 'input_example'
-require_relative 'collision_example'
+#require_relative 'collision_example'
+#require_relative 'ghost_volley'
 
 java_import 'br.com.etyllica.EtyllicaFrame'
 
