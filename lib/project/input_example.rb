@@ -1,4 +1,4 @@
-java_import 'br.com.etyllica.context.Application'
+java_import 'br.com.etyllica.core.context.Application'
 java_import 'br.com.etyllica.core.event.GUIEvent'
 java_import 'br.com.etyllica.layer.ImageLayer'
 java_import 'br.com.etyllica.layer.AnimatedLayer'

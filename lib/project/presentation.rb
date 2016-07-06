@@ -4,9 +4,9 @@ require_relative 'image_example'
 #require_relative 'collision_example'
 #require_relative 'ghost_volley'
 
-java_import 'br.com.etyllica.EtyllicaFrame'
+java_import 'br.com.etyllica.Etyllica'
 
-class Presentation < EtyllicaFrame
+class Presentation < Etyllica
   field_accessor :w, :h
 
   def initialize
